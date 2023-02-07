@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Giphy Party!</title>
+</head>
+
+<body>
+  <form>
+    
+    <label for="gif">Search Term:</label>
+    <input type="text" name="gifSearch" id="textInput" placeholder="ex: Sleepy">
+
+    <label for="numInput">Output Amount:</label>
+    <input type="number" name="numInput" id="numInput" min="1" max="10" value="1">
+
+
+    <button id="searchButton">Search!</button>
+    <button id="clearButton">Clear Gifs</button>
+  </form>
+
+  <br>
+
+  <div id="gifDisplay">
+    
+  </div>
+
+<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+<script src="https://unpkg.com/axios/dist/axios.js"></script>
+<script src="app.js"></script>
+</body>
+
+</html>
